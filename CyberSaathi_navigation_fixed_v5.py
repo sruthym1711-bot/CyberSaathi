@@ -408,8 +408,19 @@ if page=="Home":
     cards=[("scam","🛡️",T["scam"],T["scam_desc"],"pink","Scam Awareness"),("link","🔗",T["link"],T["link_desc"],"blue","Link & Message Checkers"),("message","✉️",T["message"],T["message_desc"],"green","Link & Message Checkers"),("scenarios","🧠",T["scenarios"],T["scenarios_desc"],"purple","Scenarios"),("quiz","📋",T["quiz"],T["quiz_desc"],"yellow","Quiz"),("lessons","📖",T["lessons"],T["lessons_desc"],"teal","Lessons"),("smart","🆘",T["smart"],T["smart_desc"],"purple","Safety Centre"),("safety","🛡️",T["safety"],T["safety_desc"],"blue","Safety Centre")]
     for row in range(3):
         cols=st.columns(3)
+        for col_idx in range(3):```python
+    for row in range((len(cards) + 2) // 3):
+        cols = st.columns(3)
         for col_idx in range(3):
-            key,icon,title,desc,color,target=cards[row*3+col_idx]
+            card_idx = row * 3 + col_idx
+            if card_idx >= len(cards):
+                continue
+            key, icon, title, desc, color, target = cards[card_idx]
+            with cols[col_idx]:
+                st.markdown(f'<div class="feature {color}"><div style="font-size:34px">{icon}</div><h3>{title}</h3><p>{desc}</p></div>', unsafe_allow_html=True)
+                if st.button(T["explore"] + " →", key=f"home_{key}_{lang}", use_container_width=True):
+                    go(target)
+    key,icon,title,desc,color,target=cards[row*3+col_idx]
             with cols[col_idx]:
                 st.markdown(f'<div class="feature {color}"><div style="font-size:34px">{icon}</div><h3>{title}</h3><p>{desc}</p></div>',unsafe_allow_html=True)
                 if st.button(T["explore"]+" →",key=f"home_{key}_{lang}",use_container_width=True): go(target)
