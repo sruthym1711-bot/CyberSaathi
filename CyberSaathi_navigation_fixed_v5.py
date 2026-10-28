@@ -408,7 +408,7 @@ if page=="Home":
     cards=[("scam","🛡️",T["scam"],T["scam_desc"],"pink","Scam Awareness"),("link","🔗",T["link"],T["link_desc"],"blue","Link & Message Checkers"),("message","✉️",T["message"],T["message_desc"],"green","Link & Message Checkers"),("scenarios","🧠",T["scenarios"],T["scenarios_desc"],"purple","Scenarios"),("quiz","📋",T["quiz"],T["quiz_desc"],"yellow","Quiz"),("lessons","📖",T["lessons"],T["lessons_desc"],"teal","Lessons"),("smart","🆘",T["smart"],T["smart_desc"],"purple","Safety Centre"),("safety","🛡️",T["safety"],T["safety_desc"],"blue","Safety Centre")]
     for row in range(3):
         cols=st.columns(3)
-        for col_idx in range(3):```python
+        for col_idx in range(3):
     for row in range((len(cards) + 2) // 3):
         cols = st.columns(3)
         for col_idx in range(3):
