@@ -406,9 +406,6 @@ if page=="Home":
         st.markdown(f'<div class="panel women" style="min-height:190px"><div style="font-size:48px;text-align:center">🛡️🌸</div><h3>CyberSaathi {T["women_title"]}</h3><p>{T["women_desc"]}</p></div>',unsafe_allow_html=True)
         if st.button("🌸  "+T["explore"],key="women_explore_home",use_container_width=True): go("Women's Digital Safety")
     cards=[("scam","🛡️",T["scam"],T["scam_desc"],"pink","Scam Awareness"),("link","🔗",T["link"],T["link_desc"],"blue","Link & Message Checkers"),("message","✉️",T["message"],T["message_desc"],"green","Link & Message Checkers"),("scenarios","🧠",T["scenarios"],T["scenarios_desc"],"purple","Scenarios"),("quiz","📋",T["quiz"],T["quiz_desc"],"yellow","Quiz"),("lessons","📖",T["lessons"],T["lessons_desc"],"teal","Lessons"),("smart","🆘",T["smart"],T["smart_desc"],"purple","Safety Centre"),("safety","🛡️",T["safety"],T["safety_desc"],"blue","Safety Centre")]
-    for row in range(3):
-        cols=st.columns(3)
-        for col_idx in range(3):
     for row in range((len(cards) + 2) // 3):
         cols = st.columns(3)
         for col_idx in range(3):
@@ -420,17 +417,12 @@ if page=="Home":
                 st.markdown(f'<div class="feature {color}"><div style="font-size:34px">{icon}</div><h3>{title}</h3><p>{desc}</p></div>', unsafe_allow_html=True)
                 if st.button(T["explore"] + " →", key=f"home_{key}_{lang}", use_container_width=True):
                     go(target)
-    key,icon,title,desc,color,target=cards[row*3+col_idx]
-            with cols[col_idx]:
-                st.markdown(f'<div class="feature {color}"><div style="font-size:34px">{icon}</div><h3>{title}</h3><p>{desc}</p></div>',unsafe_allow_html=True)
-                if st.button(T["explore"]+" →",key=f"home_{key}_{lang}",use_container_width=True): go(target)
     st.markdown(f'<div class="panel helpbox"><h2>📞 {T["help"]}</h2><p>{T["contacts"]}</p><p>{X["helplines"]}</p></div>',unsafe_allow_html=True)
     contacts=[("112","Emergency Assistance","tel:112"),("1930","Financial Cyber Fraud","tel:1930"),("14416","Mental Health (Tele-MANAS)","tel:14416"),("181","Women Helpline (availability varies by state)","tel:181"),("cybercrime.gov.in","Report Cybercrime (National Portal)","https://cybercrime.gov.in")]
     cols=st.columns(2)
     for i,(number,desc,url) in enumerate(contacts):
         with cols[i%2]: st.markdown(f'<div class="panel" style="background:#fff;padding:13px 16px"><h3 style="margin:0"><a href="{url}" target="_blank" style="color:#064fbb;text-decoration:none">📞 {number} ↗</a></h3><p>{desc}</p></div>',unsafe_allow_html=True)
     st.markdown(f'<div class="panel tipsbox"><h3>🛡️ {T["tips"]}</h3><p>✅ {T["tip1"]}<br>✅ {T["tip2"]}<br>✅ {T["tip3"]}<br>✅ {T["tip4"]}</p></div>',unsafe_allow_html=True)
-
 elif page=="Quiz":
     st.title("📋 "+X["quiz_title"]); st.write(X["quiz_intro"])
     bank=QUIZ if lang=="English" else [(QUIZ[i][0],QUIZ[i][1],QUIZ[i][2],QUIZ[i][3]) for i in range(15)]
