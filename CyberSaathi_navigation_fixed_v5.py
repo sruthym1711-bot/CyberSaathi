@@ -13,7 +13,7 @@ st.set_page_config(
 TEXT = {
     "English": {
         "tagline": "Your Trusted Companion in the Digital World",
-        "nav": ["Home", "Scam Awareness", "Link & Message Checkers", "Scenarios", "Quiz", "Lessons", "Safety Centre", "Women's Digital Safety", "Know Your Rights", "Evidence Guide", "Report Cybercrime"],
+        "nav": ["Home", "Scam Awareness", "Link & Message Checkers", "Scenarios", "Quiz", "Safety Centre", "Women's Digital Safety", "Know Your Rights", "Evidence Guide", "Report Cybercrime"],
         "hero1": "Think Safe.", "hero2": "Stay Secure.",
         "intro": "CyberSaathi helps you recognise cyber threats, protect yourself online and find the right help.",
         "link_btn": "Check a Suspicious Link", "msg_btn": "Check a Message",
@@ -53,7 +53,7 @@ TEXT = {
     },
     "Malayalam": {
         "tagline": "ഡിജിറ്റൽ ലോകത്തിലെ നിങ്ങളുടെ വിശ്വസ്ത കൂട്ടുകാരൻ",
-        "nav": ["ഹോം", "തട്ടിപ്പ് ബോധവൽക്കരണം", "ലിങ്ക് / സന്ദേശ പരിശോധന", "സാഹചര്യങ്ങൾ", "ക്വിസ്", "പാഠങ്ങൾ", "സുരക്ഷാ കേന്ദ്രം", "സ്ത്രീകളുടെ ഡിജിറ്റൽ സുരക്ഷ", "നിങ്ങളുടെ അവകാശങ്ങൾ", "തെളിവ് മാർഗ്ഗനിർദ്ദേശം", "സൈബർ കുറ്റകൃത്യം റിപ്പോർട്ട്"],
+        "nav": ["ഹോം", "തട്ടിപ്പ് ബോധവൽക്കരണം", "ലിങ്ക് / സന്ദേശ പരിശോധന", "സാഹചര്യങ്ങൾ", "ക്വിസ്", "സുരക്ഷാ കേന്ദ്രം", "സ്ത്രീകളുടെ ഡിജിറ്റൽ സുരക്ഷ", "നിങ്ങളുടെ അവകാശങ്ങൾ", "തെളിവ് മാർഗ്ഗനിർദ്ദേശം", "സൈബർ കുറ്റകൃത്യം റിപ്പോർട്ട്"],
         "hero1": "സുരക്ഷിതമായി ചിന്തിക്കൂ.", "hero2": "സുരക്ഷിതരായിരിക്കൂ.",
         "intro": "സൈബർ ഭീഷണികൾ തിരിച്ചറിയാനും ഓൺലൈനിൽ സുരക്ഷിതരാകാനും CyberSaathi സഹായിക്കുന്നു.",
         "link_btn": "സംശയാസ്പദമായ ലിങ്ക് പരിശോധിക്കുക", "msg_btn": "സന്ദേശം പരിശോധിക്കുക",
@@ -93,7 +93,7 @@ TEXT = {
     },
     "Hindi": {
         "tagline": "डिजिटल दुनिया में आपका भरोसेमंद साथी",
-        "nav": ["होम", "घोटालों से जागरूकता", "लिंक और संदेश जाँच", "परिस्थितियाँ", "क्विज़", "पाठ", "सुरक्षा केंद्र", "महिलाओं की डिजिटल सुरक्षा", "अपने अधिकार जानें", "सबूत मार्गदर्शिका", "साइबर अपराध रिपोर्ट करें"],
+        "nav": ["होम", "घोटालों से जागरूकता", "लिंक और संदेश जाँच", "परिस्थितियाँ", "क्विज़", "सुरक्षा केंद्र", "महिलाओं की डिजिटल सुरक्षा", "अपने अधिकार जानें", "सबूत मार्गदर्शिका", "साइबर अपराध रिपोर्ट करें"],
         "hero1": "सुरक्षित सोचें।", "hero2": "सुरक्षित रहें।", "intro": "CyberSaathi आपको साइबर खतरों को पहचानने, ऑनलाइन सुरक्षित रहने और सही मदद पाने में मदद करता है।",
         "link_btn": "संदिग्ध लिंक जाँचें", "msg_btn": "संदेश जाँचें", "women_title": "महिलाओं की डिजिटल सुरक्षा", "women_desc": "जोखिम जानें। सुरक्षित रहें। आप अकेले नहीं हैं।",
         "explore": "और जानें", "help": "अभी मदद चाहिए?", "contacts": "महत्वपूर्ण संपर्क और संसाधन", "tips": "त्वरित सुरक्षा सुझाव",
@@ -120,7 +120,7 @@ TEXT = {
     },
     "Tamil": {
         "tagline": "டிஜிட்டல் உலகில் உங்கள் நம்பகமான துணை",
-        "nav": ["முகப்பு", "மோசடி விழிப்புணர்வு", "இணைப்பு மற்றும் செய்தி சரிபார்ப்பு", "சூழல்கள்", "வினாடி வினா", "பாடங்கள்", "பாதுகாப்பு மையம்", "பெண்களின் டிஜிட்டல் பாதுகாப்பு", "உங்கள் உரிமைகள்", "ஆதார வழிகாட்டி", "சைபர் குற்றத்தைப் புகாரளி"],
+        "nav": ["முகப்பு", "மோசடி விழிப்புணர்வு", "இணைப்பு மற்றும் செய்தி சரிபார்ப்பு", "சூழல்கள்", "வினாடி வினா", "பாதுகாப்பு மையம்", "பெண்களின் டிஜிட்டல் பாதுகாப்பு", "உங்கள் உரிமைகள்", "ஆதார வழிகாட்டி", "சைபர் குற்றத்தைப் புகாரளி"],
         "hero1": "பாதுகாப்பாக சிந்தியுங்கள்.", "hero2": "பாதுகாப்பாக இருங்கள்.", "intro": "சைபர் ஆபத்துகளை அறிந்து, இணையத்தில் பாதுகாப்பாக இருக்க CyberSaathi உதவுகிறது.",
         "link_btn": "சந்தேக இணைப்பைச் சரிபார்க்கவும்", "msg_btn": "செய்தியைச் சரிபார்க்கவும்", "women_title": "பெண்களின் டிஜிட்டல் பாதுகாப்பு", "women_desc": "ஆபத்துகளை அறியுங்கள். பாதுகாப்பாக இருங்கள். நீங்கள் தனியாக இல்லை.",
         "explore": "மேலும் அறிக", "help": "உடனடி உதவி வேண்டுமா?", "contacts": "முக்கிய தொடர்புகள் மற்றும் ஆதாரங்கள்", "tips": "விரைவு பாதுகாப்பு குறிப்புகள்",
@@ -147,7 +147,7 @@ TEXT = {
     },
     "Kannada": {
         "tagline": "ಡಿಜಿಟಲ್ ಜಗತ್ತಿನಲ್ಲಿ ನಿಮ್ಮ ವಿಶ್ವಾಸಾರ್ಹ ಸಂಗಾತಿ",
-        "nav": ["ಮುಖಪುಟ", "ಮೋಸಗಳ ಬಗ್ಗೆ ಅರಿವು", "ಲಿಂಕ್ ಮತ್ತು ಸಂದೇಶ ಪರಿಶೀಲನೆ", "ಪರಿಸ್ಥಿತಿಗಳು", "ಕ್ವಿಜ್", "ಪಾಠಗಳು", "ಸುರಕ್ಷತಾ ಕೇಂದ್ರ", "ಮಹಿಳೆಯರ ಡಿಜಿಟಲ್ ಸುರಕ್ಷತೆ", "ನಿಮ್ಮ ಹಕ್ಕುಗಳು", "ಸಾಕ್ಷ್ಯ ಮಾರ್ಗದರ್ಶಿ", "ಸೈಬರ್ ಅಪರಾಧ ವರದಿ"],
+        "nav": ["ಮುಖಪುಟ", "ಮೋಸಗಳ ಬಗ್ಗೆ ಅರಿವು", "ಲಿಂಕ್ ಮತ್ತು ಸಂದೇಶ ಪರಿಶೀಲನೆ", "ಪರಿಸ್ಥಿತಿಗಳು", "ಕ್ವಿಜ್", "ಸುರಕ್ಷತಾ ಕೇಂದ್ರ", "ಮಹಿಳೆಯರ ಡಿಜಿಟಲ್ ಸುರಕ್ಷತೆ", "ನಿಮ್ಮ ಹಕ್ಕುಗಳು", "ಸಾಕ್ಷ್ಯ ಮಾರ್ಗದರ್ಶಿ", "ಸೈಬರ್ ಅಪರಾಧ ವರದಿ"],
         "hero1": "ಸುರಕ್ಷಿತವಾಗಿ ಯೋಚಿಸಿ.", "hero2": "ಸುರಕ್ಷಿತವಾಗಿರಿ.", "intro": "ಸೈಬರ್ ಅಪಾಯಗಳನ್ನು ಗುರುತಿಸಲು ಮತ್ತು ಆನ್‌ಲೈನ್‌ನಲ್ಲಿ ಸುರಕ್ಷಿತವಾಗಿರಲು CyberSaathi ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
         "link_btn": "ಸಂದೇಹಾಸ್ಪದ ಲಿಂಕ್ ಪರಿಶೀಲಿಸಿ", "msg_btn": "ಸಂದೇಶ ಪರಿಶೀಲಿಸಿ", "women_title": "ಮಹಿಳೆಯರ ಡಿಜಿಟಲ್ ಸುರಕ್ಷತೆ", "women_desc": "ಅಪಾಯಗಳನ್ನು ತಿಳಿಯಿರಿ. ಸುರಕ್ಷಿತವಾಗಿರಿ. ನೀವು ಒಬ್ಬರಲ್ಲ.",
         "explore": "ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ", "help": "ಈಗ ಸಹಾಯ ಬೇಕೇ?", "contacts": "ಮುಖ್ಯ ಸಂಪರ್ಕಗಳು ಮತ್ತು ಸಂಪನ್ಮೂಲಗಳು", "tips": "ತ್ವರಿತ ಸುರಕ್ಷತಾ ಸಲಹೆಗಳು",
@@ -405,7 +405,7 @@ if page=="Home":
     with right:
         st.markdown(f'<div class="panel women" style="min-height:190px"><div style="font-size:48px;text-align:center">🛡️🌸</div><h3>CyberSaathi {T["women_title"]}</h3><p>{T["women_desc"]}</p></div>',unsafe_allow_html=True)
         if st.button("🌸  "+T["explore"],key="women_explore_home",use_container_width=True): go("Women's Digital Safety")
-    cards=[("scam","🛡️",T["scam"],T["scam_desc"],"pink","Scam Awareness"),("link","🔗",T["link"],T["link_desc"],"blue","Link & Message Checkers"),("message","✉️",T["message"],T["message_desc"],"green","Link & Message Checkers"),("scenarios","🧠",T["scenarios"],T["scenarios_desc"],"purple","Scenarios"),("quiz","📋",T["quiz"],T["quiz_desc"],"yellow","Quiz"),("lessons","📖",T["lessons"],T["lessons_desc"],"teal","Lessons"),("safety","🛡️",T["safety"],T["safety_desc"],"blue","Safety Centre")]
+    cards=[("scam","🛡️",T["scam"],T["scam_desc"],"pink","Scam Awareness"),("link","🔗",T["link"],T["link_desc"],"blue","Link & Message Checkers"),("message","✉️",T["message"],T["message_desc"],"green","Link & Message Checkers"),("scenarios","🧠",T["scenarios"],T["scenarios_desc"],"purple","Scenarios"),("quiz","📋",T["quiz"],T["quiz_desc"],"yellow","Quiz"),("safety","🛡️",T["safety"],T["safety_desc"],"blue","Safety Centre")]
     for row in range((len(cards) + 2) // 3):
         cols = st.columns(3)
         for col_idx in range(3):
@@ -631,10 +631,6 @@ elif page == "Scenarios":
                     st.warning("💡 Not the safest choice. " + scenario["why"])
 
     st.info("Safety reminder: never share OTPs, PINs or passwords. If money is lost to cyber fraud in India, contact your bank quickly and call 1930 as soon as possible.")
-
-elif page=="Lessons":
-    st.title("📖 "+T["lesson_heading"])
-    for item in T["lesson_items"]: st.markdown("✅ "+item)
 
 elif page=="Know Your Rights":
     st.title("⚖️ "+T["rights_heading"])
