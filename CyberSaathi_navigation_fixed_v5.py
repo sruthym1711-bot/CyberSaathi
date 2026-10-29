@@ -407,7 +407,7 @@ if page=="Home":
         if st.button("🌸  "+T["explore"],key="women_explore_home",use_container_width=True): go("Women's Digital Safety")
     cards=[("scam","🛡️",T["scam"],T["scam_desc"],"pink","Scam Awareness"),("link","🔗",T["link"],T["link_desc"],"blue","Link & Message Checkers"),("message","✉️",T["message"],T["message_desc"],"green","Link & Message Checkers"),("scenarios","🧠",T["scenarios"],T["scenarios_desc"],"purple","Scenarios"),("quiz","📋",T["quiz"],T["quiz_desc"],"yellow","Quiz"),("lessons","📖",T["lessons"],T["lessons_desc"],"teal","Lessons"),("smart","🆘",T["smart"],T["smart_desc"],"purple","Safety Centre"),("safety","🛡️",T["safety"],T["safety_desc"],"blue","Safety Centre")]
     for row in range((len(cards) + 2) // 3):
-        cols = st.columns(3)
+                cols = st.columns(3)
         for col_idx in range(3):
             card_idx = row * 3 + col_idx
             if card_idx >= len(cards):
