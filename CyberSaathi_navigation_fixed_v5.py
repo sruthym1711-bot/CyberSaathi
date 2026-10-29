@@ -13,7 +13,7 @@ st.set_page_config(
 TEXT = {
     "English": {
         "tagline": "Your Trusted Companion in the Digital World",
-        "nav": ["Home", "Scam Awareness", "Link & Message Checkers", "Scenarios", "Quiz", "Safety Centre", "Women's Digital Safety", "Know Your Rights", "Evidence Guide", "Report Cybercrime"],
+        "nav": ["Home", "Scam Awareness", "Link & Message Checkers", "Scenarios", "Quiz", "Safety Centre", "Women's Digital Safety", "Report Cybercrime"],
         "hero1": "Think Safe.", "hero2": "Stay Secure.",
         "intro": "CyberSaathi helps you recognise cyber threats, protect yourself online and find the right help.",
         "link_btn": "Check a Suspicious Link", "msg_btn": "Check a Message",
@@ -29,7 +29,7 @@ TEXT = {
         "smart": "Smart Help", "smart_desc": "Describe your situation and get guidance on next steps.",
         "women": "Women's Digital Safety", "women_card_desc": "Learn, prevent, get help. Your safety matters.",
         "safety": "Safety Centre", "safety_desc": "Quick help, helplines and official resources.",
-        "rights": "Know Your Rights", "evidence": "Evidence Guide", "report": "Report Cybercrime",
+        "report": "Report Cybercrime",
         "learn": "Learn", "aware": "Be Aware", "safe": "Stay Safe", "get_help": "Get Help",
         "choose": "Choose a section from the navigation above.",
         "check_link": "Check a link", "paste_url": "Paste a web address (URL)", "check": "Check",
@@ -42,8 +42,6 @@ TEXT = {
         "submit": "Check answer", "correct": "Correct! Stop and verify using an official contact method.", "incorrect": "Not quite. Do not click the link. Contact the bank through its official app or number.",
         "scam_heading": "Common scams to watch for", "scam_items": ["Bank or KYC warning: criminals pretend your account will be blocked.", "Parcel fee: a fake delivery message asks for a small payment.", "Job offer: a scammer asks you to pay a registration fee.", "Friend in trouble: someone impersonates a friend and urgently asks for money."],
         "lesson_heading": "Everyday safety lessons", "lesson_items": ["Use a unique, strong password for each important account.", "Turn on two-step verification wherever it is available.", "Keep your phone, browser and apps updated.", "Pause before clicking links or opening attachments.", "Never share an OTP, PIN or password with anyone."],
-        "rights_heading": "Know your rights", "rights_items": ["You can report suspected cybercrime through official reporting channels.", "Keep messages, transaction references and other relevant evidence.", "Contact your bank quickly if money has been taken or a payment seems fraudulent.", "Do not pay someone who promises to recover money in exchange for an upfront fee."],
-        "evidence_heading": "Preserve evidence safely", "evidence_items": ["Take screenshots that show the sender, date, time and message.", "Keep transaction IDs, phone numbers, URLs and email details.", "Do not edit the original screenshots or messages.", "Store a backup somewhere secure and avoid publicly posting personal details."],
         "report_heading": "Report cybercrime", "report_text": "If you are in India, use the official National Cyber Crime Reporting Portal or call 1930 for urgent financial cyber fraud. If you are in immediate danger, contact local emergency services.",
         "smart_heading": "Tell us what happened", "smart_label": "Describe the situation (do not include passwords or OTPs)", "smart_button": "Show next steps",
         "smart_steps": ["Stop replying and do not send money or codes.", "Save screenshots and relevant details.", "Contact your bank or service provider through official contact details if an account or payment is involved.", "Report the incident through an official channel and ask a trusted person for help."],
@@ -53,7 +51,7 @@ TEXT = {
     },
     "Malayalam": {
         "tagline": "ഡിജിറ്റൽ ലോകത്തിലെ നിങ്ങളുടെ വിശ്വസ്ത കൂട്ടുകാരൻ",
-        "nav": ["ഹോം", "തട്ടിപ്പ് ബോധവൽക്കരണം", "ലിങ്ക് / സന്ദേശ പരിശോധന", "സാഹചര്യങ്ങൾ", "ക്വിസ്", "സുരക്ഷാ കേന്ദ്രം", "സ്ത്രീകളുടെ ഡിജിറ്റൽ സുരക്ഷ", "നിങ്ങളുടെ അവകാശങ്ങൾ", "തെളിവ് മാർഗ്ഗനിർദ്ദേശം", "സൈബർ കുറ്റകൃത്യം റിപ്പോർട്ട്"],
+        "nav": ["ഹോം", "തട്ടിപ്പ് ബോധവൽക്കരണം", "ലിങ്ക് / സന്ദേശ പരിശോധന", "സാഹചര്യങ്ങൾ", "ക്വിസ്", "സുരക്ഷാ കേന്ദ്രം", "സ്ത്രീകളുടെ ഡിജിറ്റൽ സുരക്ഷ", "സൈബർ കുറ്റകൃത്യം റിപ്പോർട്ട്"],
         "hero1": "സുരക്ഷിതമായി ചിന്തിക്കൂ.", "hero2": "സുരക്ഷിതരായിരിക്കൂ.",
         "intro": "സൈബർ ഭീഷണികൾ തിരിച്ചറിയാനും ഓൺലൈനിൽ സുരക്ഷിതരാകാനും CyberSaathi സഹായിക്കുന്നു.",
         "link_btn": "സംശയാസ്പദമായ ലിങ്ക് പരിശോധിക്കുക", "msg_btn": "സന്ദേശം പരിശോധിക്കുക",
@@ -69,7 +67,7 @@ TEXT = {
         "smart": "സ്മാർട്ട് സഹായം", "smart_desc": "നിങ്ങളുടെ സാഹചര്യം വിവരിച്ച് അടുത്ത നടപടികൾ അറിയുക.",
         "women": "സ്ത്രീകളുടെ ഡിജിറ്റൽ സുരക്ഷ", "women_card_desc": "പഠിക്കുക, പ്രതിരോധിക്കുക, സഹായം തേടുക.",
         "safety": "സുരക്ഷാ കേന്ദ്രം", "safety_desc": "സഹായം, ഹെൽപ്‌ലൈനുകൾ, ഔദ്യോഗിക വിവരങ്ങൾ.",
-        "rights": "നിങ്ങളുടെ അവകാശങ്ങൾ", "evidence": "തെളിവ് മാർഗ്ഗനിർദ്ദേശം", "report": "സൈബർ കുറ്റകൃത്യം റിപ്പോർട്ട്",
+        "report": "സൈബർ കുറ്റകൃത്യം റിപ്പോർട്ട്",
         "learn": "പഠിക്കുക", "aware": "ജാഗ്രത പാലിക്കുക", "safe": "സുരക്ഷിതരാകുക", "get_help": "സഹായം തേടുക",
         "choose": "മുകളിലെ മെനുവിൽ നിന്ന് ഒരു വിഭാഗം തിരഞ്ഞെടുക്കുക.",
         "check_link": "ലിങ്ക് പരിശോധിക്കുക", "paste_url": "വെബ് വിലാസം (URL) നൽകുക", "check": "പരിശോധിക്കുക",
@@ -82,8 +80,6 @@ TEXT = {
         "submit": "ഉത്തരം പരിശോധിക്കുക", "correct": "ശരി! ഔദ്യോഗിക മാർഗം ഉപയോഗിച്ച് സ്ഥിരീകരിക്കുക.", "incorrect": "വീണ്ടും ശ്രമിക്കുക. ലിങ്ക് തുറക്കാതെ ബാങ്കിന്റെ ഔദ്യോഗിക ആപ്പ് അല്ലെങ്കിൽ നമ്പർ ഉപയോഗിക്കുക.",
         "scam_heading": "ശ്രദ്ധിക്കേണ്ട സാധാരണ തട്ടിപ്പുകൾ", "scam_items": ["ബാങ്ക് / KYC മുന്നറിയിപ്പ്: അക്കൗണ്ട് തടയും എന്ന് പറഞ്ഞ് ഭയപ്പെടുത്തുന്നു.", "പാഴ്സൽ ഫീസ്: ചെറിയ തുക അടയ്ക്കാൻ വ്യാജ സന്ദേശം.", "ജോലി വാഗ്ദാനം: രജിസ്ട്രേഷൻ ഫീസ് ആവശ്യപ്പെടുന്നു.", "സുഹൃത്തിന്റെ പേരിൽ പണം ചോദിക്കൽ: അടിയന്തരമായി പണം അയക്കാൻ ആവശ്യപ്പെടുന്നു."],
         "lesson_heading": "ദൈനംദിന സുരക്ഷാ പാഠങ്ങൾ", "lesson_items": ["ഓരോ അക്കൗണ്ടിനും വ്യത്യസ്തവും ശക്തവുമായ പാസ്‌വേഡ് ഉപയോഗിക്കുക.", "സാധ്യമെങ്കിൽ രണ്ട് ഘട്ട സ്ഥിരീകരണം ഓണാക്കുക.", "ഫോണും ആപ്പുകളും പുതുക്കി വയ്ക്കുക.", "ലിങ്കുകൾ തുറക്കുന്നതിന് മുമ്പ് നിർത്തി ചിന്തിക്കുക.", "OTP, PIN, പാസ്‌വേഡ് എന്നിവ ആരുമായും പങ്കിടരുത്."],
-        "rights_heading": "നിങ്ങളുടെ അവകാശങ്ങൾ അറിയുക", "rights_items": ["സൈബർ കുറ്റകൃത്യം ഔദ്യോഗിക മാർഗങ്ങളിലൂടെ റിപ്പോർട്ട് ചെയ്യാം.", "സന്ദേശങ്ങൾ, ഇടപാട് വിവരങ്ങൾ, മറ്റ് തെളിവുകൾ സൂക്ഷിക്കുക.", "പണം നഷ്ടപ്പെട്ടാൽ ഉടൻ ബാങ്കിനെ ബന്ധപ്പെടുക.", "മുൻകൂർ ഫീസ് വാങ്ങി പണം തിരികെ നൽകാമെന്ന് പറയുന്നവരെ വിശ്വസിക്കരുത്."],
-        "evidence_heading": "തെളിവുകൾ സുരക്ഷിതമായി സൂക്ഷിക്കുക", "evidence_items": ["അയച്ചയാൾ, തീയതി, സമയം എന്നിവ കാണുന്ന സ്ക്രീൻഷോട്ടുകൾ എടുക്കുക.", "ഇടപാട് നമ്പർ, ഫോൺ നമ്പർ, URL, ഇമെയിൽ വിവരങ്ങൾ സൂക്ഷിക്കുക.", "യഥാർത്ഥ സന്ദേശങ്ങളോ സ്ക്രീൻഷോട്ടുകളോ മാറ്റരുത്.", "സുരക്ഷിതമായ ബാക്കപ്പ് സൂക്ഷിക്കുക; സ്വകാര്യ വിവരങ്ങൾ പൊതുവിൽ ഇടരുത്."],
         "report_heading": "സൈബർ കുറ്റകൃത്യം റിപ്പോർട്ട് ചെയ്യുക", "report_text": "ഇന്ത്യയിൽ ഔദ്യോഗിക National Cyber Crime Reporting Portal ഉപയോഗിക്കുക. അടിയന്തര സാമ്പത്തിക സൈബർ തട്ടിപ്പിന് 1930-ൽ വിളിക്കുക. ഉടൻ അപകടമുണ്ടെങ്കിൽ പ്രാദേശിക അടിയന്തര സേവനങ്ങളെ ബന്ധപ്പെടുക.",
         "smart_heading": "എന്താണ് സംഭവിച്ചതെന്ന് പറയൂ", "smart_label": "സാഹചര്യം വിവരിക്കുക (പാസ്‌വേഡ് അല്ലെങ്കിൽ OTP ചേർക്കരുത്)", "smart_button": "അടുത്ത നടപടികൾ കാണിക്കുക",
         "smart_steps": ["മറുപടി നിർത്തുക; പണമോ കോഡുകളോ അയക്കരുത്.", "സ്ക്രീൻഷോട്ടുകളും വിവരങ്ങളും സൂക്ഷിക്കുക.", "അക്കൗണ്ടോ പണമിടപാടോ ബന്ധപ്പെട്ടാൽ ഔദ്യോഗിക നമ്പറിൽ ബന്ധപ്പെടുക.", "ഔദ്യോഗികമായി റിപ്പോർട്ട് ചെയ്യുകയും വിശ്വസ്തരിൽ നിന്ന് സഹായം തേടുകയും ചെയ്യുക."],
@@ -93,7 +89,7 @@ TEXT = {
     },
     "Hindi": {
         "tagline": "डिजिटल दुनिया में आपका भरोसेमंद साथी",
-        "nav": ["होम", "घोटालों से जागरूकता", "लिंक और संदेश जाँच", "परिस्थितियाँ", "क्विज़", "सुरक्षा केंद्र", "महिलाओं की डिजिटल सुरक्षा", "अपने अधिकार जानें", "सबूत मार्गदर्शिका", "साइबर अपराध रिपोर्ट करें"],
+        "nav": ["होम", "घोटालों से जागरूकता", "लिंक और संदेश जाँच", "परिस्थितियाँ", "क्विज़", "सुरक्षा केंद्र", "महिलाओं की डिजिटल सुरक्षा", "साइबर अपराध रिपोर्ट करें"],
         "hero1": "सुरक्षित सोचें।", "hero2": "सुरक्षित रहें।", "intro": "CyberSaathi आपको साइबर खतरों को पहचानने, ऑनलाइन सुरक्षित रहने और सही मदद पाने में मदद करता है।",
         "link_btn": "संदिग्ध लिंक जाँचें", "msg_btn": "संदेश जाँचें", "women_title": "महिलाओं की डिजिटल सुरक्षा", "women_desc": "जोखिम जानें। सुरक्षित रहें। आप अकेले नहीं हैं।",
         "explore": "और जानें", "help": "अभी मदद चाहिए?", "contacts": "महत्वपूर्ण संपर्क और संसाधन", "tips": "त्वरित सुरक्षा सुझाव",
@@ -102,7 +98,7 @@ TEXT = {
         "message": "संदेश जाँचक", "message_desc": "संदेश में दबाव डालने वाली भाषा और संदेहजनक शब्द पहचानें।", "scenarios": "परिस्थितियाँ", "scenarios_desc": "वास्तविक परिस्थितियों में सुरक्षित विकल्प चुनें।",
         "quiz": "क्विज़", "quiz_desc": "अपनी जानकारी जाँचें और सीखें।", "lessons": "जागरूकता पाठ", "lessons_desc": "रोज़मर्रा की ऑनलाइन सुरक्षा के सरल पाठ।",
         "smart": "स्मार्ट मदद", "smart_desc": "अपनी स्थिति बताएँ और अगले कदम जानें।", "women": "महिलाओं की डिजिटल सुरक्षा", "women_card_desc": "सीखें, बचाव करें और मदद पाएँ।",
-        "safety": "सुरक्षा केंद्र", "safety_desc": "त्वरित मदद, हेल्पलाइन और आधिकारिक संसाधन।", "rights": "अपने अधिकार जानें", "evidence": "सबूत मार्गदर्शिका", "report": "साइबर अपराध रिपोर्ट करें",
+        "safety": "सुरक्षा केंद्र", "safety_desc": "त्वरित मदद, हेल्पलाइन और आधिकारिक संसाधन।", "report": "साइबर अपराध रिपोर्ट करें",
         "learn": "सीखें", "aware": "सतर्क रहें", "safe": "सुरक्षित रहें", "get_help": "मदद पाएँ", "choose": "ऊपर के मेनू से एक भाग चुनें।",
         "check_link": "लिंक जाँचें", "paste_url": "वेब पता (URL) डालें", "check": "जाँचें", "url_empty": "कृपया URL डालें।", "url_result_safe": "कोई स्पष्ट चेतावनी नहीं मिली। इससे वेबसाइट सुरक्षित होने की गारंटी नहीं मिलती।", "url_result_warn": "इस URL में चेतावनी के संकेत हैं। स्वतंत्र रूप से जाँचे बिना न खोलें।",
         "message_label": "मिला हुआ संदेश यहाँ डालें", "analyze": "संदेश की समीक्षा करें", "message_empty": "कृपया संदेश डालें।", "message_result": "जवाब देने से पहले इन चेतावनी संकेतों को देखें:",
@@ -110,8 +106,6 @@ TEXT = {
         "submit": "उत्तर जाँचें", "correct": "सही! आधिकारिक तरीके से पुष्टि करें।", "incorrect": "फिर कोशिश करें। लिंक न खोलें; बैंक के आधिकारिक ऐप या नंबर से संपर्क करें।",
         "scam_heading": "आम घोटाले जिनसे सावधान रहें", "scam_items": ["बैंक/KYC चेतावनी: खाते बंद होने का डर दिखाते हैं।", "पार्सल शुल्क: नकली संदेश छोटी रकम माँगता है।", "नौकरी का प्रस्ताव: पंजीकरण शुल्क माँगा जाता है।", "दोस्त के नाम पर पैसे माँगना: जल्दी पैसे भेजने का दबाव।"],
         "lesson_heading": "रोज़मर्रा की सुरक्षा के पाठ", "lesson_items": ["हर महत्वपूर्ण खाते के लिए अलग मजबूत पासवर्ड रखें।", "जहाँ संभव हो दो-चरण सत्यापन चालू करें।", "फोन और ऐप अपडेट रखें।", "लिंक खोलने से पहले रुककर सोचें।", "OTP, PIN या पासवर्ड किसी से साझा न करें।"],
-        "rights_heading": "अपने अधिकार जानें", "rights_items": ["संदिग्ध साइबर अपराध को आधिकारिक माध्यम से रिपोर्ट कर सकते हैं।", "संदेश, लेन-देन संदर्भ और अन्य सबूत सुरक्षित रखें।", "पैसे खोने पर तुरंत बैंक से संपर्क करें।", "पहले शुल्क लेकर पैसे वापस दिलाने का वादा करने वालों से सावधान रहें।"],
-        "evidence_heading": "सबूत सुरक्षित रखें", "evidence_items": ["भेजने वाले, तारीख, समय सहित स्क्रीनशॉट लें।", "लेन-देन ID, फोन नंबर, URL और ईमेल विवरण रखें।", "मूल संदेश या स्क्रीनशॉट न बदलें।", "सुरक्षित बैकअप रखें और निजी जानकारी सार्वजनिक न करें।"],
         "report_heading": "साइबर अपराध रिपोर्ट करें", "report_text": "भारत में आधिकारिक National Cyber Crime Reporting Portal का उपयोग करें। तत्काल वित्तीय साइबर धोखाधड़ी के लिए 1930 पर कॉल करें। तत्काल खतरे में स्थानीय आपातकालीन सेवाओं से संपर्क करें।",
         "smart_heading": "बताएँ क्या हुआ", "smart_label": "स्थिति बताएँ (पासवर्ड या OTP न लिखें)", "smart_button": "अगले कदम दिखाएँ",
         "smart_steps": ["जवाब देना बंद करें और पैसे या कोड न भेजें।", "स्क्रीनशॉट और जरूरी विवरण सुरक्षित रखें।", "खाते या भुगतान से जुड़ा मामला हो तो आधिकारिक संपर्क से बैंक/सेवा प्रदाता से बात करें।", "आधिकारिक माध्यम से रिपोर्ट करें और भरोसेमंद व्यक्ति से मदद लें।"],
@@ -120,7 +114,7 @@ TEXT = {
     },
     "Tamil": {
         "tagline": "டிஜிட்டல் உலகில் உங்கள் நம்பகமான துணை",
-        "nav": ["முகப்பு", "மோசடி விழிப்புணர்வு", "இணைப்பு மற்றும் செய்தி சரிபார்ப்பு", "சூழல்கள்", "வினாடி வினா", "பாதுகாப்பு மையம்", "பெண்களின் டிஜிட்டல் பாதுகாப்பு", "உங்கள் உரிமைகள்", "ஆதார வழிகாட்டி", "சைபர் குற்றத்தைப் புகாரளி"],
+        "nav": ["முகப்பு", "மோசடி விழிப்புணர்வு", "இணைப்பு மற்றும் செய்தி சரிபார்ப்பு", "சூழல்கள்", "வினாடி வினா", "பாதுகாப்பு மையம்", "பெண்களின் டிஜிட்டல் பாதுகாப்பு", "சைபர் குற்றத்தைப் புகாரளி"],
         "hero1": "பாதுகாப்பாக சிந்தியுங்கள்.", "hero2": "பாதுகாப்பாக இருங்கள்.", "intro": "சைபர் ஆபத்துகளை அறிந்து, இணையத்தில் பாதுகாப்பாக இருக்க CyberSaathi உதவுகிறது.",
         "link_btn": "சந்தேக இணைப்பைச் சரிபார்க்கவும்", "msg_btn": "செய்தியைச் சரிபார்க்கவும்", "women_title": "பெண்களின் டிஜிட்டல் பாதுகாப்பு", "women_desc": "ஆபத்துகளை அறியுங்கள். பாதுகாப்பாக இருங்கள். நீங்கள் தனியாக இல்லை.",
         "explore": "மேலும் அறிக", "help": "உடனடி உதவி வேண்டுமா?", "contacts": "முக்கிய தொடர்புகள் மற்றும் ஆதாரங்கள்", "tips": "விரைவு பாதுகாப்பு குறிப்புகள்",
@@ -129,7 +123,7 @@ TEXT = {
         "message": "செய்தி சரிபார்ப்பு", "message_desc": "சந்தேகமான சொற்கள் மற்றும் அழுத்தம் கொடுக்கும் முறைகளைக் கவனியுங்கள்.", "scenarios": "சூழல்கள்", "scenarios_desc": "நிஜ வாழ்க்கை சூழல்களில் பாதுகாப்பான தேர்வைப் பயிற்சி செய்யுங்கள்.",
         "quiz": "வினாடி வினா", "quiz_desc": "உங்கள் அறிவைச் சோதித்து கற்றுக்கொள்ளுங்கள்.", "lessons": "விழிப்புணர்வு பாடங்கள்", "lessons_desc": "தினசரி இணைய பாதுகாப்புக்கான எளிய பாடங்கள்.",
         "smart": "சிறப்பு உதவி", "smart_desc": "உங்கள் நிலையை விவரித்து அடுத்த படிகளை அறியுங்கள்.", "women": "பெண்களின் டிஜிட்டல் பாதுகாப்பு", "women_card_desc": "கற்றுக்கொள்ளுங்கள், தடுக்குங்கள், உதவி பெறுங்கள்.",
-        "safety": "பாதுகாப்பு மையம்", "safety_desc": "உதவி, உதவி எண்கள் மற்றும் அதிகாரப்பூர்வ தகவல்கள்.", "rights": "உங்கள் உரிமைகள்", "evidence": "ஆதார வழிகாட்டி", "report": "சைபர் குற்றத்தைப் புகாரளி",
+        "safety": "பாதுகாப்பு மையம்", "safety_desc": "உதவி, உதவி எண்கள் மற்றும் அதிகாரப்பூர்வ தகவல்கள்.", "report": "சைபர் குற்றத்தைப் புகாரளி",
         "learn": "கற்றுக்கொள்", "aware": "விழிப்புடன் இரு", "safe": "பாதுகாப்பாக இரு", "get_help": "உதவி பெறு", "choose": "மேலே உள்ள மெனுவிலிருந்து ஒரு பகுதியைத் தேர்ந்தெடுக்கவும்.",
         "check_link": "இணைப்பைச் சரிபார்க்கவும்", "paste_url": "இணைய முகவரியை (URL) உள்ளிடவும்", "check": "சரிபார்", "url_empty": "URL உள்ளிடவும்.", "url_result_safe": "தெளிவான எச்சரிக்கை இல்லை. இதனால் தளம் பாதுகாப்பானது என்று உறுதி செய்ய முடியாது.", "url_result_warn": "இந்த URL-ல் எச்சரிக்கை அறிகுறிகள் உள்ளன. தனியாகச் சரிபார்க்காமல் திறக்க வேண்டாம்.",
         "message_label": "பெற்ற செய்தியை இங்கே ஒட்டவும்", "analyze": "செய்தியை மதிப்பாய்வு செய்", "message_empty": "செய்தியை உள்ளிடவும்.", "message_result": "பதிலளிக்கும் முன் இந்த எச்சரிக்கைகளைப் பாருங்கள்:",
@@ -137,8 +131,6 @@ TEXT = {
         "submit": "பதிலைச் சரிபார்", "correct": "சரி! அதிகாரப்பூர்வ வழியில் உறுதிப்படுத்துங்கள்.", "incorrect": "மீண்டும் முயற்சிக்கவும். இணைப்பைத் திறக்காமல் வங்கியின் அதிகாரப்பூர்வ செயலி அல்லது எண்ணைப் பயன்படுத்துங்கள்.",
         "scam_heading": "கவனிக்க வேண்டிய பொதுவான மோசடிகள்", "scam_items": ["வங்கி/KYC எச்சரிக்கை: கணக்கு முடக்கப்படும் என்று பயமுறுத்துதல்.", "பார்சல் கட்டணம்: சிறிய தொகை கேட்கும் போலியான செய்தி.", "வேலை வாய்ப்பு: பதிவு கட்டணம் கேட்பது.", "நண்பர் பெயரில் பணம் கேட்பது: அவசரமாக பணம் அனுப்பச் சொல்வது."],
         "lesson_heading": "தினசரி பாதுகாப்புப் பாடங்கள்", "lesson_items": ["ஒவ்வொரு முக்கிய கணக்கிற்கும் வலுவான தனித்த கடவுச்சொல் பயன்படுத்துங்கள்.", "இரண்டு-படி சரிபார்ப்பை இயக்குங்கள்.", "தொலைபேசி மற்றும் செயலிகளைப் புதுப்பிக்கவும்.", "இணைப்பைத் திறப்பதற்கு முன் சிந்தியுங்கள்.", "OTP, PIN அல்லது கடவுச்சொல்லைப் பகிர வேண்டாம்."],
-        "rights_heading": "உங்கள் உரிமைகளை அறியுங்கள்", "rights_items": ["சந்தேகமான சைபர் குற்றத்தை அதிகாரப்பூர்வமாகப் புகாரளிக்கலாம்.", "செய்திகள் மற்றும் பரிவர்த்தனை விவரங்களைச் சேமிக்கவும்.", "பணம் இழந்தால் உடனே வங்கியைத் தொடர்புகொள்ளுங்கள்.", "முன்பணம் வாங்கி பணத்தை மீட்டுத் தருவதாகக் கூறுபவர்களை நம்ப வேண்டாம்."],
-        "evidence_heading": "ஆதாரங்களைப் பாதுகாப்பாக வைத்திருங்கள்", "evidence_items": ["அனுப்பியவர், தேதி, நேரம் தெரியும் வகையில் திரைப்பிடிப்புகள் எடுக்கவும்.", "பரிவர்த்தனை ID, தொலைபேசி எண், URL, மின்னஞ்சல் விவரங்களைச் சேமிக்கவும்.", "அசல் செய்திகளை மாற்ற வேண்டாம்.", "பாதுகாப்பான காப்புப்பிரதி வைத்திருங்கள்; தனிப்பட்ட தகவலைப் பொதுவில் இட வேண்டாம்."],
         "report_heading": "சைபர் குற்றத்தைப் புகாரளிக்கவும்", "report_text": "இந்தியாவில் அதிகாரப்பூர்வ National Cyber Crime Reporting Portal-ஐப் பயன்படுத்தவும். அவசர நிதி மோசடிக்கு 1930-ஐ அழைக்கவும். உடனடி ஆபத்து இருந்தால் உள்ளூர் அவசர சேவைகளைத் தொடர்புகொள்ளவும்.",
         "smart_heading": "என்ன நடந்தது என்று கூறுங்கள்", "smart_label": "நிலையை விவரிக்கவும் (கடவுச்சொல் அல்லது OTP சேர்க்க வேண்டாம்)", "smart_button": "அடுத்த படிகளைக் காட்டு",
         "smart_steps": ["பதிலளிப்பதை நிறுத்தி பணம் அல்லது குறியீடுகளை அனுப்ப வேண்டாம்.", "திரைப்பிடிப்புகள் மற்றும் விவரங்களைச் சேமிக்கவும்.", "கணக்கு அல்லது பணம் தொடர்பானால் அதிகாரப்பூர்வ தொடர்பு வழியாக வங்கியை அணுகவும்.", "அதிகாரப்பூர்வமாகப் புகாரளித்து நம்பகமானவரிடம் உதவி கேளுங்கள்."],
@@ -147,7 +139,7 @@ TEXT = {
     },
     "Kannada": {
         "tagline": "ಡಿಜಿಟಲ್ ಜಗತ್ತಿನಲ್ಲಿ ನಿಮ್ಮ ವಿಶ್ವಾಸಾರ್ಹ ಸಂಗಾತಿ",
-        "nav": ["ಮುಖಪುಟ", "ಮೋಸಗಳ ಬಗ್ಗೆ ಅರಿವು", "ಲಿಂಕ್ ಮತ್ತು ಸಂದೇಶ ಪರಿಶೀಲನೆ", "ಪರಿಸ್ಥಿತಿಗಳು", "ಕ್ವಿಜ್", "ಸುರಕ್ಷತಾ ಕೇಂದ್ರ", "ಮಹಿಳೆಯರ ಡಿಜಿಟಲ್ ಸುರಕ್ಷತೆ", "ನಿಮ್ಮ ಹಕ್ಕುಗಳು", "ಸಾಕ್ಷ್ಯ ಮಾರ್ಗದರ್ಶಿ", "ಸೈಬರ್ ಅಪರಾಧ ವರದಿ"],
+        "nav": ["ಮುಖಪುಟ", "ಮೋಸಗಳ ಬಗ್ಗೆ ಅರಿವು", "ಲಿಂಕ್ ಮತ್ತು ಸಂದೇಶ ಪರಿಶೀಲನೆ", "ಪರಿಸ್ಥಿತಿಗಳು", "ಕ್ವಿಜ್", "ಸುರಕ್ಷತಾ ಕೇಂದ್ರ", "ಮಹಿಳೆಯರ ಡಿಜಿಟಲ್ ಸುರಕ್ಷತೆ", "ಸೈಬರ್ ಅಪರಾಧ ವರದಿ"],
         "hero1": "ಸುರಕ್ಷಿತವಾಗಿ ಯೋಚಿಸಿ.", "hero2": "ಸುರಕ್ಷಿತವಾಗಿರಿ.", "intro": "ಸೈಬರ್ ಅಪಾಯಗಳನ್ನು ಗುರುತಿಸಲು ಮತ್ತು ಆನ್‌ಲೈನ್‌ನಲ್ಲಿ ಸುರಕ್ಷಿತವಾಗಿರಲು CyberSaathi ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
         "link_btn": "ಸಂದೇಹಾಸ್ಪದ ಲಿಂಕ್ ಪರಿಶೀಲಿಸಿ", "msg_btn": "ಸಂದೇಶ ಪರಿಶೀಲಿಸಿ", "women_title": "ಮಹಿಳೆಯರ ಡಿಜಿಟಲ್ ಸುರಕ್ಷತೆ", "women_desc": "ಅಪಾಯಗಳನ್ನು ತಿಳಿಯಿರಿ. ಸುರಕ್ಷಿತವಾಗಿರಿ. ನೀವು ಒಬ್ಬರಲ್ಲ.",
         "explore": "ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ", "help": "ಈಗ ಸಹಾಯ ಬೇಕೇ?", "contacts": "ಮುಖ್ಯ ಸಂಪರ್ಕಗಳು ಮತ್ತು ಸಂಪನ್ಮೂಲಗಳು", "tips": "ತ್ವರಿತ ಸುರಕ್ಷತಾ ಸಲಹೆಗಳು",
@@ -156,7 +148,7 @@ TEXT = {
         "message": "ಸಂದೇಶ ಪರಿಶೀಲಕ", "message_desc": "ಸಂದೇಶದಲ್ಲಿನ ಅನುಮಾನಾಸ್ಪದ ಪದಗಳು ಮತ್ತು ಒತ್ತಡದ ತಂತ್ರಗಳನ್ನು ಗಮನಿಸಿ.", "scenarios": "ಪರಿಸ್ಥಿತಿಗಳು", "scenarios_desc": "ನೈಜ ಪರಿಸ್ಥಿತಿಗಳಲ್ಲಿ ಸುರಕ್ಷಿತ ಆಯ್ಕೆಯನ್ನು ಅಭ್ಯಾಸ ಮಾಡಿ.",
         "quiz": "ಕ್ವಿಜ್", "quiz_desc": "ನಿಮ್ಮ ಜ್ಞಾನವನ್ನು ಪರೀಕ್ಷಿಸಿ ಮತ್ತು ಕಲಿಯಿರಿ.", "lessons": "ಜಾಗೃತಿ ಪಾಠಗಳು", "lessons_desc": "ದೈನಂದಿನ ಆನ್‌ಲೈನ್ ಸುರಕ್ಷತೆಯ ಸರಳ ಪಾಠಗಳು.",
         "smart": "ಸ್ಮಾರ್ಟ್ ಸಹಾಯ", "smart_desc": "ನಿಮ್ಮ ಪರಿಸ್ಥಿತಿಯನ್ನು ವಿವರಿಸಿ ಮುಂದಿನ ಹಂತಗಳನ್ನು ತಿಳಿಯಿರಿ.", "women": "ಮಹಿಳೆಯರ ಡಿಜಿಟಲ್ ಸುರಕ್ಷತೆ", "women_card_desc": "ಕಲಿಯಿರಿ, ತಡೆಯಿರಿ, ಸಹಾಯ ಪಡೆಯಿರಿ.",
-        "safety": "ಸುರಕ್ಷತಾ ಕೇಂದ್ರ", "safety_desc": "ತ್ವರಿತ ಸಹಾಯ, ಸಹಾಯವಾಣಿ ಮತ್ತು ಅಧಿಕೃತ ಸಂಪನ್ಮೂಲಗಳು.", "rights": "ನಿಮ್ಮ ಹಕ್ಕುಗಳು", "evidence": "ಸಾಕ್ಷ್ಯ ಮಾರ್ಗದರ್ಶಿ", "report": "ಸೈಬರ್ ಅಪರಾಧ ವರದಿ",
+        "safety": "ಸುರಕ್ಷತಾ ಕೇಂದ್ರ", "safety_desc": "ತ್ವರಿತ ಸಹಾಯ, ಸಹಾಯವಾಣಿ ಮತ್ತು ಅಧಿಕೃತ ಸಂಪನ್ಮೂಲಗಳು.", "report": "ಸೈಬರ್ ಅಪರಾಧ ವರದಿ",
         "learn": "ಕಲಿಯಿರಿ", "aware": "ಎಚ್ಚರಿಕೆಯಿಂದಿರಿ", "safe": "ಸುರಕ್ಷಿತವಾಗಿರಿ", "get_help": "ಸಹಾಯ ಪಡೆಯಿರಿ", "choose": "ಮೇಲಿನ ಮೆನುವಿನಿಂದ ಒಂದು ವಿಭಾಗ ಆಯ್ಕೆಮಾಡಿ.",
         "check_link": "ಲಿಂಕ್ ಪರಿಶೀಲಿಸಿ", "paste_url": "ವೆಬ್ ವಿಳಾಸ (URL) ನಮೂದಿಸಿ", "check": "ಪರಿಶೀಲಿಸಿ", "url_empty": "ದಯವಿಟ್ಟು URL ನಮೂದಿಸಿ.", "url_result_safe": "ಸ್ಪಷ್ಟ ಎಚ್ಚರಿಕೆ ಕಂಡುಬಂದಿಲ್ಲ. ಇದರಿಂದ ವೆಬ್‌ಸೈಟ್ ಸುರಕ್ಷಿತವೆಂದು ಖಚಿತವಾಗುವುದಿಲ್ಲ.", "url_result_warn": "ಈ URL ನಲ್ಲಿ ಎಚ್ಚರಿಕೆಯ ಸೂಚನೆಗಳಿವೆ. ಸ್ವತಂತ್ರವಾಗಿ ಪರಿಶೀಲಿಸದೆ ತೆರೆಯಬೇಡಿ.",
         "message_label": "ಸ್ವೀಕರಿಸಿದ ಸಂದೇಶವನ್ನು ಇಲ್ಲಿ ಅಂಟಿಸಿ", "analyze": "ಸಂದೇಶ ಪರಿಶೀಲಿಸಿ", "message_empty": "ದಯವಿಟ್ಟು ಸಂದೇಶವನ್ನು ಅಂಟಿಸಿ.", "message_result": "ಉತ್ತರಿಸುವ ಮೊದಲು ಈ ಎಚ್ಚರಿಕೆಗಳನ್ನು ಪರಿಶೀಲಿಸಿ:",
@@ -164,8 +156,6 @@ TEXT = {
         "submit": "ಉತ್ತರ ಪರಿಶೀಲಿಸಿ", "correct": "ಸರಿಯಾಗಿದೆ! ಅಧಿಕೃತ ಮಾರ್ಗದ ಮೂಲಕ ದೃಢೀಕರಿಸಿ.", "incorrect": "ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ. ಲಿಂಕ್ ತೆರೆಯದೆ ಬ್ಯಾಂಕಿನ ಅಧಿಕೃತ ಆಪ್ ಅಥವಾ ಸಂಖ್ಯೆಯನ್ನು ಬಳಸಿ.",
         "scam_heading": "ಗಮನಿಸಬೇಕಾದ ಸಾಮಾನ್ಯ ಮೋಸಗಳು", "scam_items": ["ಬ್ಯಾಂಕ್/KYC ಎಚ್ಚರಿಕೆ: ಖಾತೆ ನಿರ್ಬಂಧಿಸಲಾಗುತ್ತದೆ ಎಂದು ಹೆದರಿಸುವುದು.", "ಪಾರ್ಸೆಲ್ ಶುಲ್ಕ: ಸಣ್ಣ ಮೊತ್ತ ಕೇಳುವ ನಕಲಿ ಸಂದೇಶ.", "ಉದ್ಯೋಗ ಆಫರ್: ನೋಂದಣಿ ಶುಲ್ಕ ಕೇಳುವುದು.", "ಸ್ನೇಹಿತನ ಹೆಸರಿನಲ್ಲಿ ಹಣ ಕೇಳುವುದು: ತುರ್ತಾಗಿ ಹಣ ಕಳುಹಿಸಲು ಒತ್ತಾಯಿಸುವುದು."],
         "lesson_heading": "ದೈನಂದಿನ ಸುರಕ್ಷತಾ ಪಾಠಗಳು", "lesson_items": ["ಪ್ರತಿ ಪ್ರಮುಖ ಖಾತೆಗೆ ಬಲವಾದ ವಿಭಿನ್ನ ಪಾಸ್‌ವರ್ಡ್ ಬಳಸಿ.", "ಸಾಧ್ಯವಾದಲ್ಲಿ ಎರಡು ಹಂತದ ಪರಿಶೀಲನೆ ಆನ್ ಮಾಡಿ.", "ಫೋನ್ ಮತ್ತು ಆಪ್‌ಗಳನ್ನು ನವೀಕರಿಸಿ.", "ಲಿಂಕ್ ತೆರೆಯುವ ಮೊದಲು ಯೋಚಿಸಿ.", "OTP, PIN ಅಥವಾ ಪಾಸ್‌ವರ್ಡ್ ಹಂಚಬೇಡಿ."],
-        "rights_heading": "ನಿಮ್ಮ ಹಕ್ಕುಗಳನ್ನು ತಿಳಿಯಿರಿ", "rights_items": ["ಸಂದೇಹಾಸ್ಪದ ಸೈಬರ್ ಅಪರಾಧವನ್ನು ಅಧಿಕೃತವಾಗಿ ವರದಿ ಮಾಡಬಹುದು.", "ಸಂದೇಶಗಳು ಮತ್ತು ವ್ಯವಹಾರದ ವಿವರಗಳನ್ನು ಉಳಿಸಿ.", "ಹಣ ಕಳೆದುಕೊಂಡರೆ ತಕ್ಷಣ ಬ್ಯಾಂಕ್ ಸಂಪರ್ಕಿಸಿ.", "ಮುಂಗಡ ಶುಲ್ಕ ಪಡೆದು ಹಣ ಮರಳಿ ಕೊಡುತ್ತೇವೆ ಎನ್ನುವವರನ್ನು ನಂಬಬೇಡಿ."],
-        "evidence_heading": "ಸಾಕ್ಷ್ಯವನ್ನು ಸುರಕ್ಷಿತವಾಗಿ ಉಳಿಸಿ", "evidence_items": ["ಕಳುಹಿಸಿದವರು, ದಿನಾಂಕ ಮತ್ತು ಸಮಯ ಕಾಣುವ ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ತೆಗೆದುಕೊಳ್ಳಿ.", "ವ್ಯವಹಾರ ID, ಫೋನ್ ಸಂಖ್ಯೆ, URL ಮತ್ತು ಇಮೇಲ್ ವಿವರ ಉಳಿಸಿ.", "ಮೂಲ ಸಂದೇಶ ಅಥವಾ ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಬದಲಿಸಬೇಡಿ.", "ಸುರಕ್ಷಿತ ಬ್ಯಾಕಪ್ ಇಡಿ; ಖಾಸಗಿ ಮಾಹಿತಿಯನ್ನು ಸಾರ್ವಜನಿಕವಾಗಿ ಹಂಚಬೇಡಿ."],
         "report_heading": "ಸೈಬರ್ ಅಪರಾಧ ವರದಿ ಮಾಡಿ", "report_text": "ಭಾರತದಲ್ಲಿ ಅಧಿಕೃತ National Cyber Crime Reporting Portal ಬಳಸಿ. ತುರ್ತು ಹಣಕಾಸು ಸೈಬರ್ ವಂಚನೆಗೆ 1930 ಕರೆ ಮಾಡಿ. ತಕ್ಷಣದ ಅಪಾಯವಿದ್ದರೆ ಸ್ಥಳೀಯ ತುರ್ತು ಸೇವೆಗಳನ್ನು ಸಂಪರ್ಕಿಸಿ.",
         "smart_heading": "ಏನಾಯಿತು ಎಂದು ತಿಳಿಸಿ", "smart_label": "ಪರಿಸ್ಥಿತಿಯನ್ನು ವಿವರಿಸಿ (ಪಾಸ್‌ವರ್ಡ್ ಅಥವಾ OTP ಸೇರಿಸಬೇಡಿ)", "smart_button": "ಮುಂದಿನ ಹಂತಗಳನ್ನು ತೋರಿಸಿ",
         "smart_steps": ["ಉತ್ತರಿಸುವುದನ್ನು ನಿಲ್ಲಿಸಿ; ಹಣ ಅಥವಾ ಕೋಡ್ ಕಳುಹಿಸಬೇಡಿ.", "ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಮತ್ತು ವಿವರಗಳನ್ನು ಉಳಿಸಿ.", "ಖಾತೆ ಅಥವಾ ಪಾವತಿಗೆ ಸಂಬಂಧಿಸಿದ್ದರೆ ಅಧಿಕೃತ ಸಂಪರ್ಕದ ಮೂಲಕ ಬ್ಯಾಂಕ್ ಅನ್ನು ಸಂಪರ್ಕಿಸಿ.", "ಅಧಿಕೃತವಾಗಿ ವರದಿ ಮಾಡಿ ಮತ್ತು ವಿಶ್ವಾಸಾರ್ಹ ವ್ಯಕ್ತಿಯಿಂದ ಸಹಾಯ ಪಡೆಯಿರಿ."],
@@ -459,6 +449,31 @@ elif page=="Safety Centre":
     st.markdown('<div class="panel helpbox"><h3>🌐 Official reporting</h3><p>For cybercrime complaints in India, use the official National Cyber Crime Reporting Portal.</p><p><a href="https://cybercrime.gov.in" target="_blank">Open cybercrime.gov.in ↗</a></p></div>', unsafe_allow_html=True)
     st.info("If money has been lost to online financial fraud in India, contact your bank/payment provider quickly and call 1930. If someone is in immediate danger, call 112.")
 
+    # Smart Help box: users can describe a situation and receive general safety guidance.
+    st.divider()
+    st.subheader("🆘 " + X["smart_title"])
+    st.caption(X["smart_hint"])
+    situation = st.text_area(
+        T["smart_label"],
+        key=f"smart_situation_{lang}",
+        height=120,
+        placeholder="Example: I received a message saying urgent payment or my bank account will be blocked."
+    )
+    if st.button(X["smart_analyse"], key=f"smart_analyse_button_{lang}", use_container_width=True):
+        if not situation.strip():
+            st.warning(T["message_empty"])
+        else:
+            situation_lower = situation.casefold()
+            matched_words = [word for word in X["analysis_words"] if word.casefold() in situation_lower]
+            st.markdown("### " + X["smart_result"])
+            if matched_words:
+                st.warning("This description contains words that can appear in scam or safety-related situations. Please verify carefully.")
+            else:
+                st.info("No obvious warning words were detected, but this does not prove the situation is safe.")
+            for advice in X["analysis_advice"]:
+                st.markdown("- " + advice)
+            st.caption(X["not_diagnosis"])
+
 elif page=="Women's Digital Safety":
     st.title("🌸 "+T["women_title"]); st.success(X["women_intro"]); st.error(X["women_emergency"])
     st.subheader(X["women_steps_title"])
@@ -632,13 +647,7 @@ elif page == "Scenarios":
 
     st.info("Safety reminder: never share OTPs, PINs or passwords. If money is lost to cyber fraud in India, contact your bank quickly and call 1930 as soon as possible.")
 
-elif page=="Know Your Rights":
-    st.title("⚖️ "+T["rights_heading"])
-    for item in T["rights_items"]: st.markdown("✅ "+item)
 
-elif page=="Evidence Guide":
-    st.title("🗂️ "+T["evidence_heading"])
-    for item in T["evidence_items"]: st.markdown("✅ "+item)
 
 elif page=="Report Cybercrime":
     st.title("📣 "+T["report_heading"]); st.write(T["report_text"])
