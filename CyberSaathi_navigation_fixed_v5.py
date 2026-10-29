@@ -405,7 +405,7 @@ if page=="Home":
     with right:
         st.markdown(f'<div class="panel women" style="min-height:190px"><div style="font-size:48px;text-align:center">🛡️🌸</div><h3>CyberSaathi {T["women_title"]}</h3><p>{T["women_desc"]}</p></div>',unsafe_allow_html=True)
         if st.button("🌸  "+T["explore"],key="women_explore_home",use_container_width=True): go("Women's Digital Safety")
-    cards=[("scam","🛡️",T["scam"],T["scam_desc"],"pink","Scam Awareness"),("link","🔗",T["link"],T["link_desc"],"blue","Link & Message Checkers"),("message","✉️",T["message"],T["message_desc"],"green","Link & Message Checkers"),("scenarios","🧠",T["scenarios"],T["scenarios_desc"],"purple","Scenarios"),("quiz","📋",T["quiz"],T["quiz_desc"],"yellow","Quiz"),("lessons","📖",T["lessons"],T["lessons_desc"],"teal","Lessons"),("smart","🆘",T["smart"],T["smart_desc"],"purple","Safety Centre"),("safety","🛡️",T["safety"],T["safety_desc"],"blue","Safety Centre")]
+    cards=[("scam","🛡️",T["scam"],T["scam_desc"],"pink","Scam Awareness"),("link","🔗",T["link"],T["link_desc"],"blue","Link & Message Checkers"),("message","✉️",T["message"],T["message_desc"],"green","Link & Message Checkers"),("scenarios","🧠",T["scenarios"],T["scenarios_desc"],"purple","Scenarios"),("quiz","📋",T["quiz"],T["quiz_desc"],"yellow","Quiz"),("lessons","📖",T["lessons"],T["lessons_desc"],"teal","Lessons"),("safety","🛡️",T["safety"],T["safety_desc"],"blue","Safety Centre")]
     for row in range((len(cards) + 2) // 3):
         cols = st.columns(3)
         for col_idx in range(3):
@@ -417,12 +417,6 @@ if page=="Home":
                 st.markdown(f'<div class="feature {color}"><div style="font-size:34px">{icon}</div><h3>{title}</h3><p>{desc}</p></div>', unsafe_allow_html=True)
                 if st.button(T["explore"] + " →", key=f"home_{key}_{lang}", use_container_width=True):
                     go(target)
-    st.markdown(f'<div class="panel helpbox"><h2>📞 {T["help"]}</h2><p>{T["contacts"]}</p><p>{X["helplines"]}</p></div>',unsafe_allow_html=True)
-    contacts=[("112","Emergency Assistance","tel:112"),("1930","Financial Cyber Fraud","tel:1930"),("14416","Mental Health (Tele-MANAS)","tel:14416"),("181","Women Helpline (availability varies by state)","tel:181"),("cybercrime.gov.in","Report Cybercrime (National Portal)","https://cybercrime.gov.in")]
-    cols=st.columns(2)
-    for i,(number,desc,url) in enumerate(contacts):
-        with cols[i%2]: st.markdown(f'<div class="panel" style="background:#fff;padding:13px 16px"><h3 style="margin:0"><a href="{url}" target="_blank" style="color:#064fbb;text-decoration:none">📞 {number} ↗</a></h3><p>{desc}</p></div>',unsafe_allow_html=True)
-    st.markdown(f'<div class="panel tipsbox"><h3>🛡️ {T["tips"]}</h3><p>✅ {T["tip1"]}<br>✅ {T["tip2"]}<br>✅ {T["tip3"]}<br>✅ {T["tip4"]}</p></div>',unsafe_allow_html=True)
 elif page=="Quiz":
     st.title("📋 "+X["quiz_title"]); st.write(X["quiz_intro"])
     bank=QUIZ if lang=="English" else [(QUIZ[i][0],QUIZ[i][1],QUIZ[i][2],QUIZ[i][3]) for i in range(15)]
@@ -444,20 +438,26 @@ elif page=="Quiz":
         st.info(X["quiz_feedback"])
 
 elif page=="Safety Centre":
-    st.title("🆘 "+X["smart_title"]); st.write(X["smart_hint"])
-    situation=st.text_area(T["smart_label"],height=150,key=f"smart_text_{lang}")
-    if st.button(X["smart_analyse"],use_container_width=True):
-        if not situation.strip(): st.warning(T["message_empty"])
-        else:
-            lower=situation.lower(); words=X["analysis_words"]
-            matches=[w for w in words if w.lower() in lower]
-            st.subheader(X["smart_result"])
-            if matches: st.warning(" • ".join(matches[:8]))
-            else: st.info("No obvious keyword was detected. This does not mean the situation is safe.")
-            for advice in X["analysis_advice"]: st.markdown("✅ "+advice)
-            st.info(X["not_diagnosis"])
-    st.divider(); st.subheader(T["help"])
-    st.markdown(f'<p><a href="tel:112">📞 112 — Emergency assistance</a></p><p><a href="tel:1930">📞 1930 — Financial cyber fraud (India)</a></p><p><a href="tel:181">📞 181 — Women helpline (availability varies by state)</a></p><p><a href="https://cybercrime.gov.in" target="_blank">🌐 {X["official"]}</a></p>',unsafe_allow_html=True)
+    st.title("🆘 " + T["safety"])
+    st.write(T["safety_desc"])
+    st.subheader("🛡️ " + T["tips"])
+    for tip in [T["tip1"], T["tip2"], T["tip3"], T["tip4"]]:
+        st.markdown(f'<div class="panel tipsbox"><p style="font-size:17px;font-weight:700">✅ {tip}</p></div>', unsafe_allow_html=True)
+    st.divider()
+    st.subheader("📞 " + T["help"])
+    st.write(T["contacts"])
+    contacts=[
+        ("112", "Emergency assistance", "tel:112"),
+        ("1930", "Financial cyber fraud helpline (India)", "tel:1930"),
+        ("181", "Women helpline (availability varies by state)", "tel:181"),
+        ("14416", "Tele-MANAS mental health support", "tel:14416"),
+    ]
+    cols=st.columns(2)
+    for i,(number,desc,url) in enumerate(contacts):
+        with cols[i%2]:
+            st.markdown(f'<div class="panel helpbox"><h3><a href="{url}" style="color:#064fbb;text-decoration:none">📞 {number}</a></h3><p>{desc}</p></div>', unsafe_allow_html=True)
+    st.markdown('<div class="panel helpbox"><h3>🌐 Official reporting</h3><p>For cybercrime complaints in India, use the official National Cyber Crime Reporting Portal.</p><p><a href="https://cybercrime.gov.in" target="_blank">Open cybercrime.gov.in ↗</a></p></div>', unsafe_allow_html=True)
+    st.info("If money has been lost to online financial fraud in India, contact your bank/payment provider quickly and call 1930. If someone is in immediate danger, call 112.")
 
 elif page=="Women's Digital Safety":
     st.title("🌸 "+T["women_title"]); st.success(X["women_intro"]); st.error(X["women_emergency"])
@@ -487,8 +487,24 @@ elif page=="Women's Digital Safety":
     st.markdown(f'<div class="panel helpbox"><h3>📞 {T["help"]}</h3><p><a href="tel:112">112 — Emergency assistance</a></p><p><a href="tel:181">181 — Women helpline (availability varies by state)</a></p><p><a href="tel:1930">1930 — Financial cyber fraud in India</a></p><p><a href="https://cybercrime.gov.in" target="_blank">{X["official"]}</a></p></div>',unsafe_allow_html=True)
 
 elif page=="Scam Awareness":
-    st.title("🛡️ "+T["scam"]); st.subheader(T["scam_heading"])
-    for item in T["scam_items"]: st.info(item)
+    st.title("🛡️ "+T["scam"])
+    st.write(T["scam_desc"])
+    st.subheader(T["scam_heading"])
+    for item in T["scam_items"]:
+        st.info(item)
+    st.subheader("More scams to recognise")
+    extra_scams = [
+        ("UPI and QR-code scam", "Someone says you must scan a QR code or enter your UPI PIN to receive money. Do not enter your PIN to receive money; check the payment inside your official app."),
+        ("Fake customer support", "A search result or social post gives a fake support number. Use the contact details inside the official app or on the official website instead."),
+        ("Investment and trading scam", "A group promises guaranteed profits or pressures you to invest quickly. Be cautious: no investment can promise guaranteed returns."),
+        ("Remote-access scam", "A caller asks you to install an app or share your screen to fix a bank issue. Do not give strangers access to your device."),
+        ("Social-media impersonation", "A copied profile or hacked account asks for money, codes, or private information. Verify through another contact method and report fake profiles."),
+        ("Loan and recovery-fee scam", "A lender or recovery agent asks for an advance fee or promises to recover lost money for a payment. Verify independently and never pay a stranger to recover funds."),
+    ]
+    for title, detail in extra_scams:
+        with st.expander("⚠️ " + title):
+            st.write(detail)
+    st.warning("Remember: never share an OTP, UPI PIN, password, or screen access with a stranger. Pause and verify using an official channel.")
 
 elif page=="Link & Message Checkers":
     st.title("🔎 "+T["link"]+" / "+T["message"]); st.subheader(T["check_link"])
@@ -517,7 +533,7 @@ elif page=="Link & Message Checkers":
 
 elif page == "Scenarios":
     st.title("🧠 Real-Life Cyber Safety Scenarios")
-    st.write("Read each situation, choose what you would do, and press **Check answer**. Open any card below to practise. These examples are for awareness and learning.")
+    st.write("These are story-based practice situations. Choose what you would do in each real-life example, then press **Check answer**. The Quiz tests general cyber-safety knowledge; Scenarios practise decisions in a situation.")
 
     SCENARIO_BANK = [
         {
